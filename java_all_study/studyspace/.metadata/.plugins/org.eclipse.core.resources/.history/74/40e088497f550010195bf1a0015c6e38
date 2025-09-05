@@ -1,0 +1,22 @@
+package project_marketkurly;
+
+public class Product {
+	private String name;
+	private int price;
+	private int weight;
+	private String origin;
+	
+	public Product() {
+		;
+	}
+
+	public Product(String name, int price, int weight, String origin) {
+		this.name = name;
+		this.price = price;
+		this.weight = weight;
+		this.origin = origin;
+	}
+	
+	
+	
+}

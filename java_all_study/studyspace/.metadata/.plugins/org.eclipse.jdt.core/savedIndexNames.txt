@@ -1,0 +1,15 @@
+INDEX VERSION 1.134+C:\gb_0900_jhj\java\selfspace\selfsource\.metadata\.plugins\org.eclipse.jdt.core
+2857482987.index
+2604663845.index
+3075809114.index
+3812137549.index
+1241347556.index
+1790325282.index
+3213279398.index
+114826463.index
+4105937430.index
+1822074870.index
+1865797976.index
+3083344814.index
+3883071424.index
+3604559508.index

@@ -1,0 +1,16 @@
+API(Application Programming Interface, 프로그램 개발 틀)
+	개발에 필요한 라이브러리들의 집합.
+	선배 개발자들이 만들어 놓은 소스코드의 집합.
+
+	- 내부 API
+		JDK 설치 시 제공해주는 기본 API
+
+	- 외부 API
+		사설 업체에서 개발한 패키지 및 클래스들을 의미한다.
+		보통 JAR파일로 배포하며 자바 프로젝트의 build path에 추가해서 사용한다.
+
+JAR 파일을 프로젝트에 추가하기
+	배포된 JAR파일을 다운 받기
+	> 프로젝트 우클릭 > Build Path > Configure Build Path
+	> Libraries 탭 클릭 > ClassPath(안되면 ModulePath) 클릭 > Add External JARs
+	> 저장된 경로의 .jar파일을 더블 클릭으로 추가 > Apply and Close

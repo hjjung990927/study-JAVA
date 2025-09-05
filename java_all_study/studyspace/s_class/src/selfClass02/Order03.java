@@ -1,0 +1,30 @@
+package selfClass02;
+
+//	화면
+
+//	상품을 여러 개 주문한다.
+
+//	상품 클래스
+//	상품명
+//	상품 가격
+//	상품 재고
+
+//	주문 클래스
+//	주문 번호
+//	상품들
+
+//	주문할 때 결제할 총 금액을 계산할 수 있다.
+
+public class Order03 {
+	int OrderId;
+	Product03[] product;
+	int total;
+	
+	public Order03(int orderId, Product03[] product) {
+		OrderId = orderId;
+		this.product = product;
+		for (int i = 0; i < product.length; i++) {
+			this.total += product[i].price;
+		}
+	}
+}
